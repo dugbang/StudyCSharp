@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloCSharp
 {
-    class Program
+    //class Program
     {
         static void Main(string[] args)
         {

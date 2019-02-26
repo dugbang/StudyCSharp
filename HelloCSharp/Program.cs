@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace HelloCSharp
 {
-    //class Program
+    class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello C#");
-            Console.WriteLine("Hello " + args[0]);
+            Console.WriteLine("Hello {0}", args[0]);
 
             Console.ReadKey();
         }
